@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__top {
+    padding: 5% 13% 18%;
+    background: #f1ca00 url("../img/Shape_6.png") no-repeat 30%;
+    background-size: cover;
+}
+
+.main__banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-family: $secondary-font-stack;
+        font-size: 60px;
+        line-height: 75px;
+
+        @media screen and (max-width: 760px) {
+            font-size: 32px;
+        }
+    }
+
+    span {
+        font-size: 30px;
+        margin: 0 auto;
+        
+        @media screen and (max-width: 490px) {
+            font-size: 16px;
+        }
+    }
+
+    a {
+        color: $primary-text-color;
+        border-bottom: 1px dashed $primary-text-color;
+    }
+}
+
+.main__features {
+    max-width: 940px;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px 0;
+
+    @media screen and (max-width: 760px) {
+        flex-wrap: wrap;
+    }
+}

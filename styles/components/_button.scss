@@ -1,0 +1,21 @@
+.btn {
+    width: 160px;
+    border-radius: 5px;
+    color: $primary-text-color;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid $border-color;
+    transition: .15s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: $secondary-text-color;
+}
+
+.btn_yellow {
+    color: $tretiary-text-color;
+    background-color: #f1ca00;
+    border: 1px solid #f1ca00;
+}
+

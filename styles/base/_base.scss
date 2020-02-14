@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: $primary-color;
+    font-family: $font-stack;
+    color: $primary-text-color;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-text-color;
+  transition: .15s;
+
+  &:hover {
+    color: $primary-text-color;
+  }
+}

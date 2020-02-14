@@ -1,0 +1,70 @@
+.footer {
+    background-color: $secondary-color;
+    padding: 20px;
+    color: $secondary-text-color;
+    line-height: 20px;
+}
+
+.footer__content {
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 490px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer__left,
+.footer__right {
+    width: 49%;
+
+    @media screen and (max-width: 490px) {
+        width: 100%;
+    }
+}
+
+.footer__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 760px) {
+        flex-direction: column;
+    }
+}
+
+.footer__about {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 760px) {
+        align-items: center;
+    }
+}
+
+.footer__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 760px) {
+        flex-direction: column;
+    }
+}
+.footer__phones {
+    font-family: $font-stack;
+    
+    @media screen and (max-width: 760px) {
+        justify-content: center;
+    }
+}
+
+.partner-logo {
+    align-self: flex-end;
+
+    @media screen and (max-width: 760px) {
+        align-self: center;
+    }
+}
